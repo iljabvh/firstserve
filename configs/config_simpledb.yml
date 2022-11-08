@@ -1,0 +1,20 @@
+{
+    # image encoder settings
+    db_name: 'simpletest',
+    dataset_config: {"generate": {"Players": "all", "Years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "ImportMatchFormats": ["Bo3"]}},
+    players_settings: {'players_stats': { 'WinsTotal':0., 'Number of Matches':0., 'WinrateTotal': 0., 'FirstServePCT': [0., 0], 'FirstServeWonPCT': [0., 0],
+                                            'SecondServeWonPCT': [0., 0], 'RecPointsWonPCT': [0., 0] },
+                        'stats_dict': {'Serve1stPCT_': 'FirstServePCT', 'Serve1stWonPCT_': 'FirstServeWonPCT',
+                                       'Serve2ndWonPCT_': 'SecondServeWonPCT', 'ReceivingPointsWonPCT_': 'RecPointsWonPCT'}
+    },
+
+    # dataset / save / load settings
+    train_dataset_name: 'fantasyatp_half',
+    train_dataset_dir: '/savedata/simpletest/train',
+    eval_dataset_name: 'fantasyatp_half',
+    eval_dataset_dir: './savedata/simpletest/eval',
+
+    save: "./savedata/simpletest",
+    load: "./savedata/simpletest",
+
+}
