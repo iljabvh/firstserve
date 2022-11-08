@@ -29,7 +29,8 @@ Getting started: Installation
 
 After cloning the directory, simply install the requirements execute the setup.py file:
 
-.. code::
+.. code:: 
+
     $ pip install -r requirements.txt
     $ python3 setup.py install
 
