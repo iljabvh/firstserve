@@ -1,5 +1,4 @@
 {
-    # image encoder settings
     db_name: 'simpletest',
     dataset_config: {"generate": {"Players": "all", "Years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020], "ImportMatchFormats": ["Bo3"]}},
     players_settings: {'players_stats': { 'WinsTotal':0., 'Number of Matches':0., 'WinrateTotal': 0., 'FirstServePCT': [0., 0], 'FirstServeWonPCT': [0., 0],

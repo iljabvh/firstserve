@@ -29,7 +29,7 @@ Getting started: Installation
 
 After cloning the directory, simply install the requirements execute the setup.py file:
 
-.. code:: 
+.. code::
 
     $ pip install -r requirements.txt
     $ python3 setup.py install
@@ -39,7 +39,11 @@ After the installation, before running demo_data.py, you need to include the dat
 Requirements
 ------------
 
-This package requires only pandas so far, but we will start using scikit-learn in the next release.
+So far this package requires
+
+* pyyaml
+* matplotlib
+* pandas
 
 Quickstart without Installation
 ------------
